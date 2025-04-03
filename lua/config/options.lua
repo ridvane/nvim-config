@@ -34,3 +34,7 @@ opt.clipboard:append("unnamedplus")
 -- Split windows
 opt.splitright = true
 opt.splitbelow = true
+
+-- Disable netrw
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
