@@ -15,3 +15,6 @@ vim.keymap.set("x", "<leader>p", '"_dP')
 
 vim.keymap.set("n", "<leader>s", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>")
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod -x %<CR>", { silent = true })
+
+-- Use lazy keys to avoid errors if Telescope is not loaded yet
+-- vim.keymap.set('n', '<leader>fs', require("telescope").extensions.live_grep_args.live_grep_args, { noremap = true })
