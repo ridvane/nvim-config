@@ -108,12 +108,30 @@ Neovim'i actiginda buradasin. Komut verirsin, yazmazsin.
 
 ### Terminal Mod
 
+#### ToggleTerm ile Terminal Acma
+
+| Tus | Mod | Ne Yapar |
+|-----|-----|----------|
+| `⌃ `` ` | Normal/Terminal | **Floating terminal** ac/kapat (varsayilan) |
+| `<leader>tf` | Normal | **Floating** terminal ac |
+| `<leader>th` | Normal | **Yatay (horizontal)** terminal ac (altta) |
+| `<leader>tv` | Normal | **Dikey (vertical)** terminal ac (sagda) |
+
+#### Terminal Icinde Navigasyon
+
 | Tus | Ne Yapar |
 |-----|----------|
-| `⌃ \` sonra `⌃ n` | Terminal modundan normal moda gec |
+| `Esc Esc` | Terminal modundan **normal moda** gec |
 | `i` | Tekrar terminal moduna gir |
+| `⌃ h` | Sol pencereye gec |
+| `⌃ j` | Alt pencereye gec |
+| `⌃ k` | Ust pencereye gec |
+| `⌃ l` | Sag pencereye gec |
 
----
+> **Not:** Floating terminal mavi kenarlikli, yuvarlatilmis bir pencerede acilir.
+> Yatay terminal 15 satir yuksekliginde, dikey terminal ekranin %40'i genisliginde acilir.
+> Her terminal tipi bagimsiz bir oturumdur (farkli komutlar calistirabilirsin).
+
 
 ## Temel Hareketler (her modda ise yarar)
 
